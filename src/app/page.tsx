@@ -1,7 +1,7 @@
+// app/page.tsx
 "use client";
 
 import React from "react";
-import { ShapeSelector } from "@/Components/ShapeSelector";
 import { AreaForm } from "@/Components/AreaForm";
 import { AreaDatabase } from "@/Components/AreaDatabase";
 
@@ -16,7 +16,6 @@ export default function HomePage() {
       <div className="content">
         <section className="calculator card">
           <h2>เครื่องคำนวณพื้นที่</h2>
-          <ShapeSelector />
           <AreaForm />
         </section>
 

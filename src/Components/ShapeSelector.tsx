@@ -1,3 +1,4 @@
+//Components/ShapeSelector.tsx
 "use client";
 
 import { useState } from "react";
@@ -15,15 +16,16 @@ export const ShapeSelector = () => {
 
   return (
     <div className="shape-selector">
-      {shapes.map((shape) => (
-        <button
-          key={shape}
-          className={`shape-button ${selected === shape ? "active" : ""}`}
-          onClick={() => setSelected(shape)}
-        >
-          {shape}
-        </button>
-      ))}
+        {shapes.map((shape) => (
+            <button
+                type="button"
+                key={shape}
+                className={`shape-button ${selected === shape ? "active" : ""}`}
+                onClick={() => setSelected(shape)}
+            >
+                {shape}
+            </button>
+        ))}
     </div>
   );
 };
