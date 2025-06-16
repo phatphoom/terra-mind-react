@@ -4,7 +4,7 @@ export const AreaDatabase = () => {
   return (
     <div className="area-database">
       <input type="text" placeholder="ค้นหาการคำนวณ..." className="search-input" />
-      <button className="search-button">🔍 ค้นหา</button>
+      <button className="search-button">ค้นหา</button>
       <p className="no-data">ยังไม่มีข้อมูลการคำนวณ</p>
     </div>
   );

@@ -11,7 +11,7 @@ export const AreaForm = () => {
         ความกว้างกล่อง (หน่วย):
         <input type="number" placeholder="กรอกความกว้างกล่อง" />
       </label>
-      <label>
+      <label >
         คำอธิบาย:
         <textarea placeholder="อธิบายการคำนวณนี้..."></textarea>
       </label>
