@@ -1,3 +1,4 @@
+// Components/AreaDatabase.tsx
 import React from 'react';
 
 export const AreaDatabase = () => {
