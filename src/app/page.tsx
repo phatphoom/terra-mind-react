@@ -19,7 +19,7 @@ export default function HomePage() {
           <h2>เครื่องคำนวณพื้นที่</h2>
           <AreaForm />
         </section>
-        <div>{message + "test feater"}</div>
+        <div>{message + "test feater" + "string concantate"}</div>
         <section className="database card">
           <h2>ฐานข้อมูลการคำนวณ</h2>
           <AreaDatabase />
