@@ -6,7 +6,7 @@ import { AreaForm } from "@/Components/AreaForm";
 import { AreaDatabase } from "@/Components/AreaDatabase";
 
 export default function HomePage() {
-  const message = "Test";
+  const message = "Edited Commit";
   return (
     <main className="container">
       <header className="app-header">
