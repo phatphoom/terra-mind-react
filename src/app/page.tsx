@@ -6,6 +6,7 @@ import { AreaForm } from "@/Components/AreaForm";
 import { AreaDatabase } from "@/Components/AreaDatabase";
 
 export default function HomePage() {
+  const message = "Test";
   return (
     <main className="container">
       <header className="app-header">
@@ -18,7 +19,7 @@ export default function HomePage() {
           <h2>เครื่องคำนวณพื้นที่</h2>
           <AreaForm />
         </section>
-
+        <div>{message}</div>
         <section className="database card">
           <h2>ฐานข้อมูลการคำนวณ</h2>
           <AreaDatabase />
@@ -27,4 +28,3 @@ export default function HomePage() {
     </main>
   );
 }
-
